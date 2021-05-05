@@ -1,0 +1,247 @@
+/* Resetting browser default */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #08152A;
+}
+
+/* Helper CSS */
+.pink-color{
+	color: #EF9C9C;
+}
+
+.pink-bg{
+	background-color: #EF9C9C;
+}
+.text-right{
+	text-align: right;
+}
+
+.border-radius-20{
+	border-radius: 20px;
+}
+
+
+/* styling video */
+video{
+	width: 90%;
+	height: 550px;
+}
+
+/* Styling about-project */
+.about-project{
+	margin: 250px 0 0 70px;
+}
+/* Styling Navbar */
+.active{
+	border-bottom: 2px solid #fff;
+}
+
+.navbar-nav a{
+	margin-right: 4rem !important;
+}
+
+/* Styling Location */
+.location{
+	width: 400px;
+	height: 100vh;
+	position: absolute;
+	background-color: #2B3544;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	top: 0;
+	left: 0;
+	padding-top: 40px;
+	margin-left: -415px;
+	z-index: 10000;
+}
+.cross{
+	text-align: right;
+	margin-right:20px;
+}
+
+.place{
+	background-color: #FFFFFF;
+	width: 70%;
+	height: 210px;
+	margin: 30px auto 0 auto;
+	border-radius: 30px;
+}
+
+.place-img{
+	cursor: pointer;
+	margin-top: 15px;
+	border-radius: 15px;
+}
+
+/* Styling about.html */
+.our-team{
+	width: 226px;
+	min-width: 50%;
+	margin: 0 auto;
+	border-radius: 20px;
+	padding-bottom: 10px;
+	border: 2px solid #EF9C9C;
+}
+
+.intro{
+	font-size: 24px;
+}
+
+.fa-twitter-square,.fa-linkedin-square{
+	color: #50ABF1;
+	font-size: 40px !important;
+}
+
+.fa-linkedin-square{
+	color: #0077B7;
+	margin-left: 15px;
+}
+
+/* Styling Project.html */
+.project-span{
+	border-bottom: 5px solid #EF9C9C;
+}
+.pdf{
+	width: 70%;
+	height: 800px;
+}
+
+
+/* Styling code.html */
+
+select{
+	width: 100%;
+	padding: 15px 20px;
+	outline: none;
+	cursor: pointer;
+	background-color: #19273D;
+	color: #fff;
+	border: 0;
+	border-bottom: 5px solid #2D3D57;
+}
+
+
+/* Styling download.html */
+.library{
+	width: 125px;
+	height: 110px;
+	text-align: center;
+	background-color: #19273D;
+	border-bottom: 5px solid #31415C;
+}
+
+/* Navbar toggle icon */
+.navbar-toggler-icon{
+	background-image: url('../Images/nav.png')
+}
+
+
+/* Responsiveness */
+
+
+@media screen and (max-width:1286px){
+	.timelapse-video{
+		width: 700px;
+	}
+}
+
+@media screen and (max-width:1127px){
+	.timelapse-video{
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 993px) {
+
+	.about-project{
+		margin: 140px 0 0 0;
+	}
+	
+	.timelapse-video{
+		width: 400px;
+		height: 300px;
+	}
+	.profile-1{
+		width: 270px;
+    	height: auto;
+    	margin-top: 50px;
+	}
+
+	.pdf{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.timelapse-video{
+		margin-top: 70px;
+		width: 500px;
+		margin-bottom: 20px;
+	}
+
+	.library-container{
+		justify-content: center !important;
+		margin-top: 50px;
+	}
+
+	.lc{
+		margin-top: -10px;
+	}
+
+	.last-element{
+		margin-bottom: 40px;
+	}
+}
+
+@media 	screen and (max-width: 550px) {
+		.timelapse-video{
+			width: 400px;
+		}
+}
+
+@media screen and (max-width: 450px){
+	.timelapse-video{
+		width: 300px;
+		height: 250px;
+	}
+
+	.location{
+		width: 250px;
+	}
+
+	.place-img{
+		width: 150px;
+		height: 160px;
+	}
+	.pdf{
+		width: 70%;
+		height: 300px;
+	}
+	#video3{
+		margin-top: 10px;
+	}
+
+
+}
+
+@media 	screen and (max-width: 350px) {
+
+	.timelapse-video{
+		width: 250px;
+		height: 200px;
+	}
+}
+
+@media 	screen and (max-width: 280px) {
+	.timelapse-video{
+		width: 200px;
+		height: 150px;
+	}
+	#video2{
+		margin-top: 10px!important;
+	}
+}
